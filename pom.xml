@@ -289,4 +289,17 @@
     </pluginRepository>
   </pluginRepositories>
 
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>9f2911f48f35-releases</name>
+        <url>https://artifactory.cfrickler.de/libs-release</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>9f2911f48f35-snapshots</name>
+        <url>https://artifactory.cfrickler.de/libs-snapshot</url>
+    </snapshotRepository>
+  </distributionManagement>    
+    
 </project>
